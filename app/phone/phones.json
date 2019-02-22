@@ -1,0 +1,256 @@
+{
+    "phones":
+    [
+        {
+            "id": "1",
+            "contact_id": "1",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "(561) 624-1884",
+            "phone_numeric": "5616241884",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "2",
+            "contact_id": "144",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "(561) 624 - 1884",
+            "phone_numeric": "5616241884",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "3",
+            "contact_id": "144",
+            "location_type_id": "2",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "(561) 776 - 0386",
+            "phone_numeric": "5617760386",
+            "phone_type_id": "3"
+        },
+        {
+            "id": "4",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "404-521-0000",
+            "phone_numeric": "4045210000",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "5",
+            "contact_id": "145",
+            "location_type_id": "2",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "5042831561",
+            "phone_ext": "3060",
+            "phone_numeric": "5042831561",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "6",
+            "contact_id": "145",
+            "location_type_id": "4",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "5042586170",
+            "phone_numeric": "5042586170",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "7",
+            "contact_id": "145",
+            "location_type_id": "2",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "5042868462",
+            "phone_numeric": "5042868462",
+            "phone_type_id": "3"
+        },
+        {
+            "id": "8",
+            "contact_id": "2",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "6128751888",
+            "phone_numeric": "6128751888",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "9",
+            "contact_id": "138",
+            "location_type_id": "2",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "5616241884",
+            "phone_numeric": "5616241884",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "10",
+            "contact_id": "150",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "5041112222",
+            "phone_numeric": "5041112222",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "12",
+            "contact_id": "42",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "7346467098",
+            "phone_numeric": "7346467098",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "13",
+            "contact_id": "138",
+            "location_type_id": "2",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "5617760386",
+            "phone_numeric": "5617760386",
+            "phone_type_id": "3"
+        },
+        {
+            "id": "14",
+            "contact_id": "995",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "6128751888",
+            "phone_numeric": "6128751888",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "16",
+            "contact_id": "1007",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "(586) 532-8560",
+            "phone_numeric": "5865328560",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "17",
+            "contact_id": "1007",
+            "location_type_id": "2",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "(586) 532-8571",
+            "phone_numeric": "5865328571",
+            "phone_type_id": "3"
+        },
+        {
+            "id": "18",
+            "contact_id": "1008",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "(586) 532-8560",
+            "phone_numeric": "5865328560",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "20",
+            "contact_id": "1009",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "561-758-4340",
+            "phone_numeric": "5617584340",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "22",
+            "contact_id": "140",
+            "location_type_id": "1",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "561-758-4340",
+            "phone_numeric": "5617584340",
+            "phone_type_id": "2"
+        },
+        {
+            "id": "23",
+            "contact_id": "1010",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "3045836521",
+            "phone_numeric": "3045836521",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "24",
+            "contact_id": "52",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "(304) 583-9995",
+            "phone_numeric": "3045839995",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "25",
+            "contact_id": "1011",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "(304) 583-6858",
+            "phone_numeric": "3045836858",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "26",
+            "contact_id": "1012",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "814-432-2121",
+            "phone_ext": "2170",
+            "phone_numeric": "8144322121",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "27",
+            "contact_id": "49",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "814-385-4051",
+            "phone_numeric": "8143854051",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "28",
+            "contact_id": "1013",
+            "location_type_id": "1",
+            "is_primary": "1",
+            "is_billing": "0",
+            "phone": "724-274-8100",
+            "phone_numeric": "7242748100",
+            "phone_type_id": "1"
+        },
+        {
+            "id": "29",
+            "contact_id": "1013",
+            "location_type_id": "4",
+            "is_primary": "0",
+            "is_billing": "0",
+            "phone": "412-855-5337",
+            "phone_numeric": "4128555337",
+            "phone_type_id": "1"
+        }
+    ]
+}
