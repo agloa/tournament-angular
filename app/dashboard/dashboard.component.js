@@ -1,11 +1,3 @@
-// A minimal unit test focuses on testing a discrete technical artifact, such as a function, class, or file. 
-// Minimal unit tests are loosely coupled, and they generally shouldn't require an external service (such as a database or web-server). 
-// The narrow scope and loose-coupling makes these fast 
-// -- so you can execute a large suite of tests in a short time. 
-// However, it also makes them less representative. 
-// This type of testing is ideal for helpers, utilities, and libraries which have innately low coupling. 
-// They're also useful if you need to test a large range of possible inputs/permutations.
-
 angular.module('tournament.dashboard').component('dashboard', {
   templateUrl: 'dashboard/dashboard.template.html',
   controller: ['$routeParams', 'User',
