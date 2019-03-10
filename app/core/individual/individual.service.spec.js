@@ -23,7 +23,6 @@ describe('Individual', function() {
   beforeEach(inject(function(_$httpBackend_, _Individual_) {
     $httpBackend = _$httpBackend_;
     $httpBackend.expectGET('people/people.json').respond(peopleData);
-
     Individual = _Individual_;
   }));
 
@@ -33,11 +32,9 @@ describe('Individual', function() {
     $httpBackend.verifyNoOutstandingRequest();
   });
 
-  it('should fetch the people data from `/people/people.json`', function() {
+  it('should fetch people data from `/people/people.json`', function() {
     var people = Individual.query();
-
     expect(people).toEqual([]);
-
     $httpBackend.flush();
     expect(people).toEqual(peopleData);
   });
