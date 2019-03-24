@@ -17,22 +17,7 @@ describe('Tournament app', function() {
       expect(element.all(by.css('[ng-view] h2')).first().getText()).
         toMatch(/Dashboard/);
       expect(element.all(by.css('[ng-view] p')).first().getText()).
-        toMatch(/Welcome, Admin AGLOA. This page will guide you through the steps of tournament registration./);
-    });
-
-  });
-
-
-  describe('person', function() {
-
-    beforeEach(function() {
-      browser.get('index.html#!/person');
-    });
-
-
-    it('should render person when user navigates to /person', function() {
-      expect(element.all(by.css('[ng-view] p')).first().getText()).
-        toMatch(/Welcome, Admin AGLOA. This page will guide you through the steps of tournament registration./);
+        toMatch(/Welcome, Admin AGLOA. This app will guide you through the steps of tournament registration./);
     });
 
   });

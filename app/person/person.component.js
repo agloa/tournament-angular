@@ -9,21 +9,24 @@ appModule.component('person', {
     function PersonController($routeParams,  Individual) {
       var self = this;
             
-      if ($routeParams.personId !== undefined) self.id = $routeParams.personId;
+      if ($routeParams.id !== undefined) self.id = $routeParams.id;
 
-      // Individual service returns data for personId
+      // Individual service returns data for person id
       self.people = Individual.get({id:"id"}, 
         function() {
-          self.setSelection(self.id);
+          self.setSelectedPerson(self.id);
         });
 
-      self.setSelection = function setSelection(id) {
+      self.setSelectedPerson = function setSelectedPerson(id) {
         if (self.people != null && id != null) {
             self.selectedPerson = self.people.contacts[id];
+            self.selectedPerson.birth_date = new Date(self.selectedPerson.birth_date);
         }
       };
 
-      self.save = function save() {alert('Saving...');}
+      self.save = function save() {
+        alert('Saving...' + JSON.stringify(self.selectedPerson));
+      }
     }
   ]
 });
