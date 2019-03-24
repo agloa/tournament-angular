@@ -9,10 +9,13 @@ appModule.component('person', {
     function PersonController($routeParams,  Individual) {
       var self = this;
             
-      if ($routeParams.personId !== undefined) id = $routeParams.personId;
+      if ($routeParams.personId !== undefined) self.id = $routeParams.personId;
 
       // Individual service returns data for personId
-      self.people = Individual.get({}, function() {self.setSelection(id);});
+      self.people = Individual.get({id:"id"}, 
+        function() {
+          self.setSelection(self.id);
+        });
 
       self.setSelection = function setSelection(id) {
         if (self.people != null && id != null) {
