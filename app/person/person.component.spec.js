@@ -83,13 +83,11 @@ describe('tournament.person', function() {
     beforeEach(inject(function($componentController, _$httpBackend_, $routeParams) {
       $httpBackend = _$httpBackend_;
       $httpBackend.expectGET('people/people.json').respond(personData);
-
-      $routeParams.contactId = personData.selectedPersonId;
-
+      //$routeParams.personId = personData.selectedPersonId;
       ctrl = $componentController('person');
     }));
 
-    it('should fetch people', function() {
+    it('should fetch personData', function() {
       jasmine.addCustomEqualityTester(angular.equals);
       expect(ctrl.people).toEqual({});
       $httpBackend.flush();
